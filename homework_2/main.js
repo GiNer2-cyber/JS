@@ -141,6 +141,9 @@ switch (day1) {
         break
     case 7:
         console.log('Sunday')
+        break
+    default:
+        console.log('Erorr')
 }
 
 

@@ -44,9 +44,12 @@ while (i1 < 20) {
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-for (let i = 0; i < 10; i++) {
-    document.write(`</div><ul><li>${['html']}</li>${listOfItems}</ul>`)
+document.write(`<ul>`);
+for (let item of listOfItems) {
+    document.write(`<li>${item}</li>`);
 }
+document.write(`</ul>`);
+
 
 // -----------------------------------------------
 //

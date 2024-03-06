@@ -1,24 +1,16 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-let square = (a, b) => {
-    return a * b
-}
+let square = (a, b) => a * b
 
 console.log(square(10, 3))
 console.log(square(20, 4))
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
-const sCircle = (r) => {
-    return Math.PI * r * r
-
-}
+const sCircle = (r) => Math.PI * r * r
 
 console.log(sCircle(10))
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-const sCylinder = (r, h) => {
-    return (2 * Math.PI * r * r) + (2 * Math.PI * r * h)
-
-}
+const sCylinder = (r, h) => (2 * Math.PI * r * r) + (2 * Math.PI * r * h)
 
 console.log(sCylinder(5, 15))
 console.log(sCylinder(5, 30))

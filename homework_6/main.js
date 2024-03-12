@@ -23,12 +23,12 @@ console.log(str.trim());
 const result3 = str.split(' ').filter((c) => c.length).join(' % ');
 console.log(result3);
 
-// - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
+// - Напишіть функцію stringToArray(str), яка перетворює рядок на масив слів.
 //     let str = 'Ревуть воли як ясла повні';
-// let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+// let arr = stringToArray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
 let str2 = 'Ревуть воли як ясла повні';
-const stringToarray = (str) => str.split(' ');
-console.log(stringToarray(str2));
+const stringToArray = (str) => str.split(' ');
+console.log(stringToArray(str2));
 
 
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
